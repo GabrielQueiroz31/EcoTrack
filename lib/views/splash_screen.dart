@@ -20,7 +20,6 @@ class SplashScreen extends StatelessWidget {
                 color: Colors.green,
               ),
               const SizedBox(height: 20),
-
               const Text(
                 'EcoTrack',
                 style: TextStyle(
@@ -28,16 +27,12 @@ class SplashScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               const SizedBox(height: 15),
-
               const Text(
                 'Controle hábitos sustentáveis e ajude o planeta.',
                 textAlign: TextAlign.center,
               ),
-
               const SizedBox(height: 30),
-
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushReplacement(
@@ -48,7 +43,7 @@ class SplashScreen extends StatelessWidget {
                   );
                 },
                 child: const Text('Entrar'),
-              )
+              ),
             ],
           ),
         ),
